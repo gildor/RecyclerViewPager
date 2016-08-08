@@ -1,0 +1,10 @@
+language: android
+jdk: 
+  - oraclejdk8 
+android:
+  components:
+  - platform-tools
+  - tools
+  - android-24
+  - extra-android-m2repository
+script: ./gradlew assembleDebug
